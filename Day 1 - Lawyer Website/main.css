@@ -1,0 +1,108 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Navigation Bar*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10em;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.last-anchor {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1em 1em;
+}
+
+/* Section One*/
+
+.section-one {
+    display: flex;
+    
+    height: 937px;
+    flex: 1;
+
+}
+
+.left-col {
+    width: 65%;
+    background-color: #FEF3E6;
+    display: flex;
+    align-items: center;
+    padding: 0 10em;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 10.0rem;
+    max-width: 50%;
+    margin: 0;
+    margin-bottom: 0.25em;
+}
+
+.second-title {
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.last-paragraph {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    max-width: 60%;
+    margin: 0;
+    margin-bottom: 1.2em;
+}
+
+.book-button {
+    color: #FEF3E6;
+    background-color: black;
+    width: 20%;
+    padding: 0.5em 0.1em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.right-col {
+    background-image: url(images/lawyer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+}
