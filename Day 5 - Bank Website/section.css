@@ -1,0 +1,278 @@
+/* Section One */
+
+.section-one {
+  display: flex;
+  height: 800px;
+  width: auto;  
+}
+
+
+.section-one-column-left {
+  height: 800px;
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+}
+
+.section-one-column-right {
+  background-color: rgb(3, 71, 55);
+  height: 800px;
+  width: 50%;
+
+  border-radius: .7em;
+}
+
+.section-one-header {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 0.1em;
+}
+
+.section-one-subhead {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 1.5em;;
+
+  background-color: rgb(150, 244, 222);
+  padding: 0 0.2em;
+  display: inline-block;
+}
+
+.section-one-paragraph {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2em;
+  line-height: 1.5em;
+}
+
+.section-one-button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(3, 71, 55);
+  border-radius: .3em;
+  background-color: black;
+  color: white;
+  font-size: 1.1rem;
+  padding: 1em 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.section-one-column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one-column-right img {
+  width: 500px;
+  height: 500px;
+}
+
+/* Section Two */
+
+.section-two {
+  background-color: rgb(192, 241, 230);
+
+  height: 500px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 3em;
+}
+
+.section-two-image {
+  width: 280px;
+  height: 280px;
+  mix-blend-mode: multiply;
+}
+
+.section-two-card-one {
+  background-color: white;
+  display: flex;
+  gap: 2em;
+  width: 600px;
+
+  border-radius: 1em;
+  overflow: hidden;
+  padding: 1em;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+.section-two-card-two {
+  background-color: white;
+  display: flex;
+  gap: 2em;
+  width: 600px;
+
+  border-radius: 1em;
+  overflow: hidden;
+  padding: 1em;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+.section-two-header {
+  color: rgb(3, 71, 55);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.section-two-subheader {
+  margin: 0;
+  color: rgb(3, 71, 55);
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+
+.section-two-card-one-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-two-card-two-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Section Three*/
+
+.section-three {
+  background-color: rgb(255, 255, 255);
+  height: 1000px;
+  padding: 3em 5em;
+}
+
+.section-three-card-one {
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-three-card-one-first {
+  background-color: rgb(150, 244, 222);
+  display: inline-block;
+
+  margin: 0;
+  margin-bottom: 1.2em;
+  font-size: 1.2rem;
+  padding: 0 0.5em;
+  color: rgb(3, 71, 55);
+}
+
+.section-three-card-one-header {
+  font-weight: bold;
+  font-size: 2.6em;
+  color: rgb(3, 71, 55);
+  margin: 0;
+}
+
+.section-three-card-one-subheader {
+  font-weight: bold;
+  font-size: 2.6em;
+  color: rgb(3, 71, 55);
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.section-three-card-one-paragraph {
+  color: rgb(3, 71, 55);
+  margin: 0;
+  font-size: 1.1em;
+  margin-bottom: 5em;
+}
+
+.section-three-card-two {
+  display: flex;
+  height: 600px;
+}
+
+.section-three-col-left {
+  width: 40%;
+}
+
+.section-three-col-right {
+  background-color: rgb(3, 71, 55);;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  border-radius: 1em;
+}
+
+.col-left-div-1 {
+  background-color: white;
+  height: 15%;
+  border-radius: 1em;
+  padding: 2em;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: gray;
+
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+.col-left-div-2 {
+  background-color: white;
+  height: 15%;
+  border-radius: 1em;
+  padding: 2em;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: gray;
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+.col-left-div-3 {
+  background-color: rgb(150, 244, 222);
+  height: 37%;
+  border-radius: 1em;
+  padding: 2em;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.section-three-paragraph {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.section-three-btn-basic {
+  background-color: white;
+  border-width: 1px;
+  font-size: 0.8rem;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.section-three-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.section-three-button:hover {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  text-decoration: underline;
+}
