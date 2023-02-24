@@ -7,7 +7,7 @@ html, body {
 
 header {
     height: 10%;
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,6 +26,7 @@ header nav ul {
 
 header h2 {
     margin: 0;
+    color: black;
 }
 
 main {
@@ -38,7 +39,7 @@ main {
     background-color: black;
     color: white;
     font-size: 2rem;
-    max-width: 14em;
+    max-width: 15em;
     margin: 0 auto;
     margin-top: 5em;
     margin-bottom: 1em;
