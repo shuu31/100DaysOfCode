@@ -1,0 +1,42 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #f9fafa;
+
+  padding: 10px 100px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+/* Icon Container */
+#icon-container {
+  display: flex;
+  gap: 1rem;
+}
+
+/*Website Icon*/
+#website-icon {
+  height: 50px;
+  width: 50px;
+}
+
+/*Navigation Links*/
+#navigation-links  {
+  display: flex;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+#navigation-links li{
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+#navigation-links li:hover {
+  color: #577e7e;
+}

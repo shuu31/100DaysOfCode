@@ -1,0 +1,166 @@
+/* Section One */
+#section-one {
+  background-image: url("images/baground-images/section1background.jpg");
+  background-size: cover;
+
+  display: flex;
+
+  height: 800px;
+}
+
+#section-one-container {
+  background-color: rgba(137, 168, 179, 0.8);
+  
+  height: 800px;
+  width: 50%;
+
+  min-width: 450px;
+}
+
+#section-one-text-content {
+  color: white;
+
+  position: relative;
+
+  top: 38%;
+  left: 30%;
+
+} 
+
+.section-one-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3rem;
+
+  margin: 0;
+}
+
+.section-one-header-2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+
+  margin: 0;
+}
+
+.section-one-paragraph {
+  font-size: 1.2rem;
+
+  margin: 0;
+  margin-top: 20px;
+
+  width: 300px;
+}
+
+
+/* Section Two */
+
+#section-two {
+  background-color: white;
+
+  display: flex;
+
+  height: 400px;
+}
+
+#section-two-container {
+  background-color: rgb(80, 98, 105);
+
+  height: 400px;
+  width: 50%;
+
+  min-width: 450px;
+}
+
+.section-two-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3rem;
+
+  color: rgb(137, 168, 179);
+  margin: 0;
+}
+
+.section-two-header-2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+
+  color: rgb(137, 168, 179);
+  margin: 0;
+}
+
+
+#section-two-text-content {
+  color: white;
+
+  position: relative;
+
+  top: 38%;
+  left: 30%;
+
+} 
+
+#section-two-container-one {
+  height: 400px;
+  width: 574px;
+}
+
+#section-two-container-items {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  column-gap: 50px;
+
+  margin-top: 30px;
+
+  list-style-type: square;
+  color: rgb(68, 104, 116);
+}
+
+#section-two-container-items li h3 {
+  font-size: 1rem;
+  color: rgb(137, 168, 179);
+}
+
+#section-two-container-items li p {
+  font-size: 0.7rem;
+  color: rgb(137, 168, 179);
+}
+
+/* Section Three*/
+
+#section-three {
+  background-color: rgb(137, 168, 179);
+
+  height: 500px;
+}
+
+#section-three-content {
+ padding: 50px;
+}
+
+#section-three-content p {
+  text-align: center;
+
+  color: white;
+  
+  margin-bottom: 50px;
+ }
+.section-three-content-first-paragraph {
+  margin: 0;
+
+}
+
+/* Section Four */
+
+#section-four {
+  height: 500px;
+
+  background-image: url("images/section\ four\ image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#section-four div {
+  background-color: rgba(137, 168, 179, 0.3);
+  height: 500px;
+  width: 100%;
+}
