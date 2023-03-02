@@ -1,0 +1,96 @@
+:root {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(233, 246, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.span-element {
+    border-bottom-style: solid;
+    border-bottom-color: rgb(115, 160, 233);
+    border-bottom-width: 4px;
+    padding-bottom: 8px;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    height: 45%;
+    padding: 2em;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+#icon {
+    border-radius: 50%;
+    box-shadow: 10px -8px 0px rgb(115, 160, 233);
+}
+
+#name {
+    letter-spacing: 3px;
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+#title {
+    margin: 0;
+    color: rgb(115, 160, 233);
+    text-transform: uppercase;
+}
+
+#description {
+    line-height: 1.3em;
+    color: rgb(139, 153, 175);
+    font-size: 1.2rem;
+}
+
+.button-container {
+    margin-bottom: 2em;
+}
+
+#left-button, #right-button {
+    background: transparent;
+    font-size: 1.5rem;
+    border: none;
+    color: rgb(129, 177, 255);
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+#left-button:hover, #right-button:hover {
+    color: rgb(59, 78, 110);
+}
+
+#surprise-button {
+    font-size: 1rem;
+    background-color: rgb(226, 231, 241);
+    color: rgb(117, 155, 215);
+    border-color: rgb(117, 155, 215);
+    border-radius: 5px;
+    padding: 0.2em 0.3;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#surprise-button:hover {
+    background-color: rgb(117, 155, 215);
+    color: black;
+}
