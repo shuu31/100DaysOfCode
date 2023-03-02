@@ -26,17 +26,43 @@ const surpriseButtonElement = document.getElementById('surprise-button');
 let index = 0;
 
 function toTheLeft() {
+    index--;
+
+    if (index < 0) {
+        index = nameList.length-1;
+    }
+        
+        iconElement.setAttribute("src", imageList[index]);
+        nameElement.textContent = nameList[index];
+        titleElement.textContent = titleList[index];
+        descriptionElement.textContent = descriptionList[index];
 }
 
 function toTheRight() {
     index++;
 
-    if (index >= 0) {
-        nameElement.textContent = nameList[index];
+    if (index > nameList.length-1) {
+        index = 0;
     }
+        
+        iconElement.setAttribute("src", imageList[index]);
+        nameElement.textContent = nameList[index];
+        titleElement.textContent = titleList[index];
+        descriptionElement.textContent = descriptionList[index];
+
+}
+
+function surprise() {
+    index = Math.floor(Math.random() * 4);
+
+    iconElement.setAttribute("src", imageList[index]);
+    nameElement.textContent = nameList[index];
+    titleElement.textContent = titleList[index];
+    descriptionElement.textContent = descriptionList[index];
 }
 
 leftButtonElement.addEventListener('click', toTheLeft);
 rightButtonElement.addEventListener('click', toTheRight);
+surpriseButtonElement.addEventListener('click', surprise);
 
 

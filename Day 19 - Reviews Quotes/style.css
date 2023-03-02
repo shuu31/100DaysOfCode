@@ -42,6 +42,8 @@ body {
 #icon {
     border-radius: 50%;
     box-shadow: 10px -8px 0px rgb(115, 160, 233);
+    object-fit: cover;
+    object-position: center;
 }
 
 #name {
@@ -88,6 +90,7 @@ body {
     border-radius: 5px;
     padding: 0.2em 0.3;
     transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
 }
 
 #surprise-button:hover {
