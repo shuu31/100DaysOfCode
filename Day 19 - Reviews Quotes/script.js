@@ -12,3 +12,31 @@ const descriptionList = [
     "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
     "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic.",
 ]
+
+// Get Elements
+const iconElement = document.getElementById('icon');
+const nameElement = document.getElementById('name');
+const titleElement = document.getElementById('title');
+const descriptionElement = document.getElementById('description');
+const leftButtonElement = document.getElementById('left-button');
+const rightButtonElement = document.getElementById('right-button');
+const surpriseButtonElement = document.getElementById('surprise-button');
+
+
+let index = 0;
+
+function toTheLeft() {
+}
+
+function toTheRight() {
+    index++;
+
+    if (index >= 0) {
+        nameElement.textContent = nameList[index];
+    }
+}
+
+leftButtonElement.addEventListener('click', toTheLeft);
+rightButtonElement.addEventListener('click', toTheRight);
+
+
