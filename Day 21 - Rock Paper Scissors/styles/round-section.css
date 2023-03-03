@@ -1,0 +1,59 @@
+.round-section {
+    background-color: rgb(224, 183, 224);
+    height: 90%;
+    position: relative;
+}
+
+.round-section p {
+    margin: 0;
+}
+
+.round-section-container {
+    background-color: rgb(235, 217, 235);
+    width: 30em;
+    height: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.round-section-container p {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 0.3em;
+    color: rgb(224, 183, 224);
+}
+
+.round-section-container input {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+
+.round-section-container button {
+    background-color: rgb(137, 91, 137);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.3em 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: box-shadow 1s;
+}
+
+.round-section-container button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
