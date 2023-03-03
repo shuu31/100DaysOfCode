@@ -1,0 +1,27 @@
+.game-section {
+    background-color: rgb(201, 151, 201);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-section h1 {
+    color: white;
+}
+
+#rock-button img, #paper-button img, #scissor-button img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    margin: 0;
+    object-position: center;
+}
+
+#rock-button, #paper-button, #scissor-button {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: none;
+    margin: 0;
+}
