@@ -1,13 +1,20 @@
 .game-section {
     background-color: rgb(201, 151, 201);
-    height: 800px;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .game-section h1 {
+    letter-spacing: 0.1em;
     color: white;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
 }
 
 #rock-button img, #paper-button img, #scissor-button img {
@@ -24,4 +31,43 @@
     border-radius: 50%;
     border: none;
     margin: 0;
+}
+
+#rock-button:hover, #paper-button:hover, #scissor-button:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.victory-indicator {
+    font-size: 2rem;
+    letter-spacing: 0.5em;
+}
+
+.win {
+    color: rgb(123, 211, 123);
+}
+
+.lose {
+    color: rgb(248, 106, 106);
+}
+
+.win-count p {
+    font-weight: 300;
+    font-size: 1.5em;
+    color: white;
+}
+
+.win-or-lose-box {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+
+.win-or-lose-box li {
+    background-color: gray;
+    height: 30px;
+    width: 10px;
 }
